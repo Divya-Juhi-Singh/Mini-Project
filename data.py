@@ -24,7 +24,7 @@ with open('ApplicationFormExam.csv', 'r') as file:
 		SubjectName2=row[15]
 		Photo=row[16]
 
-		with open("form1.html",'r',encoding='utf-8')as f:
+		with open("Eform.html",'r',encoding='utf-8')as f:
 			var=f.read()
 			var = var.replace("_UniversityRollNo._", URN )
 			var = var.replace("_Programme_", Programme)
