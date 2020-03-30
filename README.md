@@ -3,8 +3,11 @@
 In this project csv file data has been taken and from that data examination forms has been generated in form of pdf
 
 ## Things need to be installed
-Pdfkit :
+
 `pip install pdfkit`
+`apt-get install wkhtmltopdf`
+
+
 
 ## File Structure
  `ApplicationFormExam.csv`- File where data is stored 
