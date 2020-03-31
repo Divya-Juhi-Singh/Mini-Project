@@ -8,6 +8,9 @@ In this project csv file data has been taken and from that data examination form
 
 `apt-get install wkhtmltopdf`
 
+`pip install --user pyvirtualdisplay`
+
+
 
 
 ## File Structure
