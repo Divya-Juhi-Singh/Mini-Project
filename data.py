@@ -1,7 +1,9 @@
+from pyvirtualdisplay import Display
 import csv
 import pdfkit
 import os
-
+display = Display()
+display.start()
 
 with open('ApplicationFormExam.csv', 'r') as file:
 	reader = csv.reader(file)
